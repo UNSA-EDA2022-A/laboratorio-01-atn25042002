@@ -21,7 +21,7 @@ public class Exercise2 {
 	}
 
 	public Integer getMenorNumeroSaltos(int a []) {
-		int nsaltos= 0, pos= 0, dist;
+		Integer nsaltos= 0, pos= 0, dist;
 		for(int i= 0; i< a.length; i++){
 		    dist= a[i] - a[pos];
 
